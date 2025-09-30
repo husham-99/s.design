@@ -13,40 +13,59 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-------------------- header -------------------->
+    <!-----------------navbar--------------------------->
 
-    <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light pd-lg-0">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-xs-12">
-            <button class="bar btn btn-outline-dark">
-              <i class="fa fa-bars fa-2x"></i>
-            </button>
-            <div class="logo">
-              <h2>S.Design</h2>
-            </div>
-          </div>
-
-          <nav class="col-md-9 col-xs-12">
-            <ul class="nav-list">
-              <li class="list"><a href="#">Home</a></li>
-              <li class="list"><a href="#">About</a></li>
-              <li class="list"><a href="#">Services</a></li>
-              <li class="list"><a href="#">Portflio</a></li>
-              <li class="list"><a href="#">Prices</a></li>
-              <li class="list"><a href="#">Team</a></li>
-              <li class="list"><a href="#">Testimonial</a></li>
-              <li class="list"><a href="#">Blog</a></li>
-              <li class="list"><a href="#">Contacts</a></li>
-            </ul>
-          </nav>
+        <a class="navbar-brand logo-text" href="#">Silver Design</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portflio">Portflio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prices">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
+    </nav>
 
     <!------------------- home section  ---------------->
 
-    <section class="home sections text-center">
+    <section class="home sections text-center" id="home">
       <div class="overlay">
         <div class="container">
           <div class="home-content">
@@ -55,8 +74,8 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
               odit iure voluptas fugit libero aliquam.
             </p>
-            <button class="btn button">Start Now</button>
-            <button class="btn button">Discover More</button>
+            <button class="button">Start Now</button>
+            <button class="button">Discover More</button>
           </div>
         </div>
       </div>
@@ -64,7 +83,7 @@
 
     <!------------------- about section  ---------------->
 
-    <section class="about sections">
+    <section class="about sections" id="about">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title">About Us</h2>
@@ -80,7 +99,7 @@
         <div class="row mt-5">
           <div class="col-md-6 col-sm-12">
             <div class="about-info">
-              <h3>Welcome to Unifox Creative Desgin Agency</h3>
+              <h3>Welcome to S.Design Creative Desgin Agency</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Maiores, asperiores aut perspiciatis quod quam ipsum, nobis
@@ -98,7 +117,7 @@
                 voluptatem, nostrum obcaecati rem in cupiditate eligendi
                 exercitationem.
               </p>
-              <button class="btn button">Learn More</button>
+              <button class="button">Learn More</button>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
@@ -112,7 +131,7 @@
 
     <!------------------- services section  ---------------->
 
-    <section class="Services sections">
+    <section class="Services sections" id="services">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title">Our Services</h2>
@@ -128,7 +147,7 @@
         <div class="row mt-5">
           <div class="col-md-4 col-sm-6">
             <div class="service-box">
-              <i class="fa fa-camera"></i>
+              <i class="fa fa-chess"></i>
               <h3>Strategy</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -138,8 +157,8 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="service-box">
-              <i class="fa fa-camera"></i>
-              <h3>Create Design</h3>
+              <i class="fa fa-paint-brush"></i>
+              <h3>Creative Design</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reprehenderit unde aut sed nihil quod nostrum.
@@ -148,7 +167,7 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="service-box">
-              <i class="fa fa-camera"></i>
+              <i class="fa fa-desktop"></i>
               <h3>Devolopment</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -158,7 +177,7 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="service-box">
-              <i class="fa fa-camera"></i>
+              <i class="fa fa-globe"></i>
               <h3>Marketing</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -168,7 +187,7 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="service-box">
-              <i class="fa fa-camera"></i>
+              <i class="fa fa-bezier-curve"></i>
               <h3>Innovation</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -178,7 +197,7 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="service-box">
-              <i class="fa fa-camera"></i>
+              <i class="fa fa-mobile"></i>
               <h3>App Designing</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -192,7 +211,7 @@
 
     <!------------------- statistic section  ---------------->
 
-    <section class="stat sections mt-5">
+    <section class="stat sections mt-5" id="statistic">
       <div class="overlay">
         <div class="container">
           <div class="row">
@@ -247,9 +266,9 @@
 
     <!------------------- portfolio section  ---------------->
 
-    <sectoin class="portfolio sections mt-5">
+    <sectoin class="portfolio sections mt-5" id="portfolio">
       <div class="container">
-        <div class="section-header text-center">
+        <div class="section-header text-center mt-5">
           <h2 class="section-title">Our Portfolioes</h2>
           <div class="line">
             <span>0</span>
@@ -313,7 +332,7 @@
 
     <!------------------- experties section  ---------------->
 
-    <section class="experties sections mt-5">
+    <section class="experties sections mt-5" id="experties">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title">Our Experties</h2>
@@ -385,7 +404,7 @@
 
     <!------------------- pricing section  ---------------->
 
-    <section class="pricing sections">
+    <section class="pricing sections" id="prices">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title">Our Pricing</h2>
@@ -476,7 +495,7 @@
 
     <!------------------- team section  ---------------->
 
-    <section class="team sections">
+    <section class="team sections" id="team">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title">Our Team</h2>
@@ -626,7 +645,7 @@
 
     <!------------------- business section  ---------------->
 
-    <section class="business sections mt-5">
+    <section class="business sections mt-5" id="business">
       <div class="container">
         <div class="overlay">
           <div class="business-content">
@@ -748,7 +767,7 @@
     </section>
 
     <!------------------- testimonial section  ---------------->
-    <section class="testimonial sections">
+    <section class="testimonial sections" id="testimonial">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title">What They Say</h2>
@@ -1145,7 +1164,7 @@
 
     <!------------------- blog section  ----------------------->
 
-    <section class="blog sections">
+    <section class="blog sections" id="blog">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title">Blog</h2>
