@@ -244,7 +244,7 @@ nav .logo-text {
 
 /********************** statistic section **************/
 .stat {
-  background-image: url(/images/1.jpg);
+  background-image: url(../images/1.jpg);
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -654,7 +654,7 @@ span {
 /********************** business section **************/
 
 .business {
-  background-image: url(/images/27.jpg);
+  background-image: url(../images/27.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
