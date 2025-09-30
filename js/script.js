@@ -1,11 +1,3 @@
-// show navbar when click on button
-let bar = document.querySelector(".bar");
-let nav = document.querySelector(".nav-list");
-
-bar.addEventListener("click", function () {
-  nav.classList.toggle("active");
-});
-
 // show navbar when click on button by jsquary
 // $(document).ready(function(){
 
