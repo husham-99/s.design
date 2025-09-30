@@ -355,7 +355,7 @@ span {
     width: 100%;
   }
   .portfolio .buttons button {
-    width: 15%;
+    width: 17%;
     background-color: silver;
     border: none;
     border-radius: 4px;
@@ -504,7 +504,7 @@ span {
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    top: -13%;
+    top: -19%;
     left: 8%;
     /* background: silver; */
 
