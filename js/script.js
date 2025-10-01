@@ -13,10 +13,10 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     let sc = $(this).scrollTop();
-    if (sc > 100) {
-      $("header").addClass("sticky");
+    if (sc > 300) {
+      $("nav").addClass("sticky");
     } else {
-      $("header").removeClass("sticky");
+      $(".nav").removeClass("sticky");
     }
 
     // count to blugin
@@ -25,6 +25,21 @@ $(document).ready(function () {
       $(".time").countTo();
       $(window).off("scroll");
     }
+
+    if (sc > 800) {
+      $(".scrollTop").fadeIn();
+    } else {
+      $(".scrollTop").fadeOut();
+    }
+
+    $(".scrollTop").click(function () {
+      $("body,html").animate(
+        {
+          scrollTop: 0,
+        },
+        500
+      );
+    });
   });
 
   // portfolio buton change background-color
